@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ms</groupId>
-	<artifactId>email</artifactId>
+	<artifactId>ms-email</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>email</name>
+	<name>ms-email</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -41,6 +41,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
