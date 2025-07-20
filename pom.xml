@@ -11,6 +11,7 @@
 	<name>my-send-email</name>
 	<modules>
 		<module>ms-user</module>
+		<module>ms-email</module>
 	</modules>
 
 	<properties>
