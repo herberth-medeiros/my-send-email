@@ -9,3 +9,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  rabbitmq:
+    addresses: amqps://qsfmdfvx:mS0wWKuNKvp14zLHTdFCMK0rFA7sSzOR@beaver.rmq.cloudamqp.com/qsfmdfvx
+
+broker:
+  queue:
+    email:
+      name: default.email
+
+
