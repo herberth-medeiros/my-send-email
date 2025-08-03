@@ -16,5 +16,17 @@ broker:
   queue:
     email:
       name: default.email
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: decod***@gmail.com
+    password: "**** **** ***"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
 
 
